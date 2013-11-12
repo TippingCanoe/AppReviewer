@@ -7,7 +7,8 @@ Pod::Spec.new do |s|
   s.author       = { "Jeff Friesen" => "j.friesen@tippingcanoe.com" }
   s.source       = { :git => "https://github.com/TippingCanoe/AppReviewer.git", :tag => "0.0.1" }
   s.source_files  = 'AppReviewer', 'AppReviewer/*.{h,m}'
+  s.platform = :ios, '5.0'
   s.exclude_files = 'Classes/Exclude'
-  s.framework  = 'UIKit'
+  s.ios.frameworks  = 'UIKit'
   s.requires_arc = true
 end
