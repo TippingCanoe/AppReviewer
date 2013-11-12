@@ -16,6 +16,7 @@
 		8405A51218326ECA00901539 /* libAppReviewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8405A4FA18326ECA00901539 /* libAppReviewer.a */; };
 		8405A51818326ECA00901539 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8405A51618326ECA00901539 /* InfoPlist.strings */; };
 		8405A51A18326ECA00901539 /* AppReviewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405A51918326ECA00901539 /* AppReviewerTests.m */; };
+		8405A5241832744300901539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8405A5231832744300901539 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		8405A51518326ECA00901539 /* AppReviewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppReviewerTests-Info.plist"; sourceTree = "<group>"; };
 		8405A51718326ECA00901539 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8405A51918326ECA00901539 /* AppReviewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppReviewerTests.m; sourceTree = "<group>"; };
+		8405A5231832744300901539 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8405A5241832744300901539 /* UIKit.framework in Frameworks */,
 				8405A4FE18326ECA00901539 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +103,7 @@
 		8405A4FC18326ECA00901539 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8405A5231832744300901539 /* UIKit.framework */,
 				8405A4FD18326ECA00901539 /* Foundation.framework */,
 				8405A50B18326ECA00901539 /* XCTest.framework */,
 				8405A50E18326ECA00901539 /* UIKit.framework */,

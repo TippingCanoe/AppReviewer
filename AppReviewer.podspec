@@ -5,7 +5,9 @@ Pod::Spec.new do |s|
   s.homepage     = "http://www.tippingcanoe.com"
   s.license      = 'Public Domain'
   s.author       = { "Jeff Friesen" => "j.friesen@tippingcanoe.com" }
-  s.source       = { :git => "git@github.com:TippingCanoe/AppReviewer.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/TippingCanoe/AppReviewer.git", :tag => "0.0.1" }
   s.source_files  = 'AppReviewer', 'AppReviewer/*.{h,m}'
+  s.exclude_files = 'Classes/Exclude'
+  s.framework  = 'UIKit'
   s.requires_arc = true
 end
