@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface AppReviewer : NSObject
-
++ (void)setItunesId:(NSString *)itunesId;
++ (void)goToAppStore;
++ (void)goToReviewPage;
 @end
